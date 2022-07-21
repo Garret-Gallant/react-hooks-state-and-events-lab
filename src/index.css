@@ -41,7 +41,14 @@ span[role="image"] {
   --font-color: rgb(255, 255, 255);
   --background: rgb(50, 50, 50);
   --background--light: rgb(80, 80, 80);
-  transition: all 0.3s;
+  transition: all 0.5s;
+}
+
+.App.light {
+  --font-color: rgb(90, 90, 90);
+  --background: rgb(193, 246, 255);
+  --background--light: rgb(255, 255, 255);
+  transition: all 0.5s;
 }
 
 .App {
